@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="gustavo.brilhante.coinapp.activity.InfoActivity">
+
+    <ImageView
+        android:id="@+id/infoactivity_imageview"
+        android:layout_width="200sp"
+        android:layout_height="200sp"/>
+
+    <LinearLayout
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infoactivity_nome_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="nome"
+            android:textColor="@color/mainTextView"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/infoactivity_valor_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="valor"
+            android:textColor="@color/colorItens"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/infoactivity_ultima_consulta_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ultima consulta"
+            android:textColor="@color/secondTextView"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/infoactivity_fonte_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="fonte"
+            android:textColor="#0000EE"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
